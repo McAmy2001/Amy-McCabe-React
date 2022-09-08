@@ -32,7 +32,58 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.header, footer {
+  background-color: #e47255;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  /*background-image: url(./assets/superiorrocks\ copy.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  opacity: .75; */
+}
+
+.h1 {
+  padding: 20px 100px 10px 100px;
+  color: #140a07;
+}
+
+header nav ul, footer ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-right: 20px;
+}
+header nav ul li {
+  padding: 10px 20px;
+  font-size: larger;
+  color: #140107
+}
+.content {
+  background-color: #b2422c;
+}
+
+@media screen and (min-width: 910px) {
+  .header, footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .h1 {
+    padding: 75px 100px;
+  }
+  header nav ul, footer ul {
+    flex-direction: row;
+
   }
 }
