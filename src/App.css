@@ -1,59 +1,32 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: #e47255;
+  --secondary-color: #b2422c;
+  --tertiary-color: #140a07;
+  --fourth-color: #7ea0a0;
+  --fifth-color: #322c18;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Rozha One', serif;
+  font-size: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .header, footer {
-  background-color: #e47255;
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  /*background-image: url(./assets/superiorrocks\ copy.JPG);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
-  opacity: .75; */
 }
 
 .h1 {
   padding: 20px 100px 10px 100px;
-  color: #140a07;
+  color: v ar(--tertiary-color);
+  font-size: 3.0em;
+  /*text-shadow: 2px 2px var(--fourth-color); */
 }
 
 header nav ul, footer ul {
@@ -67,11 +40,35 @@ header nav ul, footer ul {
 }
 header nav ul li {
   padding: 10px 20px;
-  font-size: larger;
-  color: #140107
+  color: var(--tertiary-color);
+  font-size: 2.0em;
 }
 .content {
-  background-color: #b2422c;
+  background-color: var(--fourth-color);
+}
+footer {
+  font-size: 2.0em;
+
+}
+footer h3 {
+  padding: 20px 100px 10px 100px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  padding: 10px 20px;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+.about {
+  font-size: 1.5em;
+  padding: 20px 50px;
+}
+#amyImage {
+  width: 100%;
+  padding: 50px;
 }
 
 @media screen and (min-width: 910px) {
@@ -84,6 +81,14 @@ header nav ul li {
   }
   header nav ul, footer ul {
     flex-direction: row;
-
+  }
+}
+@media screen and (min-width: 575px) {
+  #amyImage {
+    width: 33%;
+    padding: 10px;
+  }
+  .about-container {
+    flex-direction: row;
   }
 }

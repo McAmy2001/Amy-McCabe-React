@@ -1,9 +1,10 @@
 import React from 'react';
+import About from '../About';
 
 function Content() {
   return( 
     <div className='content'>
-      Here is the Middle
+      <About></About>
     </div>
   )
 }
