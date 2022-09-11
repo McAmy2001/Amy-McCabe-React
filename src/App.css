@@ -2,7 +2,7 @@
   --primary-color: #e47255;
   --secondary-color: #b2422c;
   --tertiary-color: #140a07;
-  --fourth-color: #7ea0a0;
+  --fourth-color: #c4d4d4;
   --fifth-color: #322c18;
 }
 * {
@@ -20,6 +20,8 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  background-image: url(../src/assets/cool-background.png);
+  background-size: cover;
 }
 
 .h1 {
@@ -42,6 +44,10 @@ header nav ul li {
   padding: 10px 20px;
   color: var(--tertiary-color);
   font-size: 2.0em;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: var(--tertiary-color);
 }
 .content {
   background-color: var(--fourth-color);
@@ -69,8 +75,27 @@ footer ul li a {
 #amyImage {
   width: 100%;
   padding: 50px;
+  border-radius: 15px;
 }
-
+.portfolio {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.project {
+  border: 3px solid var(--tertiary-color);
+  padding: 5px;
+}
+@media screen and (min-width: 575px) {
+  #amyImage {
+    width: 50%;
+    padding: 10px;
+  } 
+  .about-container {
+    align-items: center;
+  }
+} 
 @media screen and (min-width: 910px) {
   .header, footer {
     flex-direction: row;
@@ -82,13 +107,16 @@ footer ul li a {
   header nav ul, footer ul {
     flex-direction: row;
   }
-}
-@media screen and (min-width: 575px) {
   #amyImage {
-    width: 33%;
+    width: 25%;
     padding: 10px;
   }
   .about-container {
     flex-direction: row;
+    align-items: center;
+  }
+  .portfolio {
+    flex-direction: row;
+    justify-content: center;
   }
 }
