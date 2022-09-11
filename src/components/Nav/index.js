@@ -1,24 +1,27 @@
 import React from 'react';
  
-function Nav() {
+function Nav(props) {
+  //console.log(props);
   return(
     <nav>
         <ul>
           <li>
-            <a href='#about'>About Me</a>
+          <button onClick={() => props.setCurrentContent('About')}>About Me</button>
           </li>
           <li>
-            <a href='#portfolio'>Portfolio</a> 
+            <button onClick={() => props.setCurrentContent('Portfolio')}>Portfolio</button>
           </li>
           <li>
-            Contact
+          <button onClick={() => props.setCurrentContent('Contact')}>Contact Me</button>
           </li>
           <li>
-            Resume
+          <button onClick={() => props.setCurrentContent('Resume')}>Resume</button>
           </li>
         </ul>
       </nav>
   )
 }
+
+
 
 export default Nav;

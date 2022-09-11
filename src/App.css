@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #e47255;
+  --primary-color: #e9a385;
   --secondary-color: #b2422c;
   --tertiary-color: #140a07;
-  --fourth-color: #c4d4d4;
+  --fourth-color: #9b9982;
   --fifth-color: #322c18;
 }
 * {
@@ -76,16 +76,35 @@ footer ul li a {
   width: 100%;
   padding: 50px;
   border-radius: 15px;
+
+}
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
 }
 .portfolio {
-  margin: 10px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  padding-bottom: 20px;
+  
 }
 .project {
-  border: 3px solid var(--tertiary-color);
+  border: 6px solid var(--tertiary-color);
   padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0px;
+  background-color: var(--primary-color);
+}
+.project a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+.project a:hover {
+  color: var(--fifth-color);
 }
 @media screen and (min-width: 575px) {
   #amyImage {
