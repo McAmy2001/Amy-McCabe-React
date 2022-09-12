@@ -27,7 +27,7 @@ body {
 .h1 {
   padding: 20px 100px 10px 100px;
   color: v ar(--tertiary-color);
-  font-size: 3.0em;
+  font-size: 3.5em;
   /*text-shadow: 2px 2px var(--fourth-color); */
 }
 
@@ -45,9 +45,16 @@ header nav ul li {
   color: var(--tertiary-color);
   font-size: 2.0em;
 }
-header nav ul li a {
+.nav ul li button {
+  background-color: transparent;
+  border: none;
   text-decoration: none;
   color: var(--tertiary-color);
+  font-size: 1.0em;
+  font-family: 'Rozha One', serif;
+}
+.nav ul li button:hover {
+  cursor: pointer;
 }
 .content {
   background-color: var(--fourth-color);
@@ -99,12 +106,33 @@ footer ul li a {
   flex: 1 1 0px;
   background-color: var(--primary-color);
 }
+.project h2 {
+  font-size: 2.0em;
+}
 .project a {
   text-decoration: none;
   color: var(--tertiary-color);
+  font-size: 1.25em;
 }
 .project a:hover {
   color: var(--fifth-color);
+}
+#contact-form input, textarea {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 10px 20px;
+  box-sizing: content-box;
+}
+#contact-form label {
+  font-size: 1.25em;
+}
+#contact-form button {
+  padding: 5px 15px;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 20px;
+  max-width: 50%;
+  background-color: var(--primary-color);
 }
 @media screen and (min-width: 575px) {
   #amyImage {
@@ -114,12 +142,11 @@ footer ul li a {
   .about-container {
     align-items: center;
   }
+  #contact-form input, textarea {
+    width: 50%;
+  }
 } 
 @media screen and (min-width: 910px) {
-  .header, footer {
-    flex-direction: row;
-    justify-content: space-between;
-  }
   .h1 {
     padding: 75px 100px;
   }
@@ -137,5 +164,11 @@ footer ul li a {
   .portfolio {
     flex-direction: row;
     justify-content: center;
+  }
+}
+@media screen and (min-width: 1258px) {
+  .header, footer {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }

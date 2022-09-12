@@ -58,9 +58,9 @@ function Project() {
       <h1>My Projects</h1>
       <div className='portfolio'>
         {projects.map((project, i) => (
-          <div className='project'>
+          <div className='project' key={project.key}>
             <img src={require(`../../assets/img${i}.jpeg`)} alt={project.alt} />
-            <h2>{project.title}</h2>
+            <h2>{project.title}</h2><br/>
             <a href={project.github}>GitHub</a><br />
             <a href={project.deployed}>Heroku App or Demo Video</a>
           </div>

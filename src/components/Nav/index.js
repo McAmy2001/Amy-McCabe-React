@@ -3,7 +3,7 @@ import React from 'react';
 function Nav(props) {
   //console.log(props);
   return(
-    <nav>
+    <nav className='nav'>
         <ul>
           <li>
           <button onClick={() => props.setCurrentContent('About')}>About Me</button>

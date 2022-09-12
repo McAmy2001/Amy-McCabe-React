@@ -6,13 +6,13 @@ import Resume from '../Resume';
 
 function renderContent(currentContent) {
   if (currentContent === 'About') {
-    return <About></About>;
+    return <About></About>
   } else if (currentContent === 'Portfolio') {
-    return <Portfolio></Portfolio>;
+    return <Portfolio></Portfolio>
   } else if (currentContent === 'Contact') {
-    return <Contact></Contact>;
+    return <Contact></Contact>
   } else {
-    return <Resume></Resume>;
+    return <Resume></Resume>
   }
 }
 
@@ -21,7 +21,7 @@ function Content(props) {
   
   return( 
     <div className='content'>
-      {renderContent(props.currentContent)};
+      {renderContent(props.currentContent)}
     </div>
   )
 }
