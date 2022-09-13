@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/amy-mccabe-react/static/css/main.fab7675f.css",
-    "main.js": "/amy-mccabe-react/static/js/main.cf6ecf12.js",
-    "static/js/787.e2d54440.chunk.js": "/amy-mccabe-react/static/js/787.e2d54440.chunk.js",
-    "static/media/amycastle.jpg": "/amy-mccabe-react/static/media/amycastle.48e8b88d4935ccb163fe.jpg",
-    "static/media/cool-background.png": "/amy-mccabe-react/static/media/cool-background.6aa6757a275b16d6431a.png",
-    "static/media/amymccabe-resume.pdf": "/amy-mccabe-react/static/media/amymccabe-resume.9be22a9104e3bc894824.pdf",
-    "static/media/img1.jpeg": "/amy-mccabe-react/static/media/img1.310740dcf57e131968a5.jpeg",
-    "static/media/img2.jpeg": "/amy-mccabe-react/static/media/img2.713cc2be2d4bb3681674.jpeg",
-    "static/media/img6.jpeg": "/amy-mccabe-react/static/media/img6.c0f3db0ee0101c5f0299.jpeg",
-    "static/media/img0.jpeg": "/amy-mccabe-react/static/media/img0.cbd7c4da07405ab193f2.jpeg",
-    "static/media/img5.jpeg": "/amy-mccabe-react/static/media/img5.64baabf224b574ca77af.jpeg",
-    "index.html": "/amy-mccabe-react/index.html",
-    "main.fab7675f.css.map": "/amy-mccabe-react/static/css/main.fab7675f.css.map",
-    "main.cf6ecf12.js.map": "/amy-mccabe-react/static/js/main.cf6ecf12.js.map",
-    "787.e2d54440.chunk.js.map": "/amy-mccabe-react/static/js/787.e2d54440.chunk.js.map"
+    "main.css": "/Amy-McCabe-React/static/css/main.1f7ce07c.css",
+    "main.js": "/Amy-McCabe-React/static/js/main.5cd39ea6.js",
+    "static/js/787.e2d54440.chunk.js": "/Amy-McCabe-React/static/js/787.e2d54440.chunk.js",
+    "static/media/amycastle.jpg": "/Amy-McCabe-React/static/media/amycastle.48e8b88d4935ccb163fe.jpg",
+    "static/media/cool-background.png": "/Amy-McCabe-React/static/media/cool-background.6aa6757a275b16d6431a.png",
+    "static/media/amymccabe-resume.pdf": "/Amy-McCabe-React/static/media/amymccabe-resume.9be22a9104e3bc894824.pdf",
+    "static/media/img1.jpeg": "/Amy-McCabe-React/static/media/img1.310740dcf57e131968a5.jpeg",
+    "static/media/img2.jpeg": "/Amy-McCabe-React/static/media/img2.713cc2be2d4bb3681674.jpeg",
+    "static/media/img6.jpeg": "/Amy-McCabe-React/static/media/img6.c0f3db0ee0101c5f0299.jpeg",
+    "static/media/img0.jpeg": "/Amy-McCabe-React/static/media/img0.cbd7c4da07405ab193f2.jpeg",
+    "static/media/img5.jpeg": "/Amy-McCabe-React/static/media/img5.64baabf224b574ca77af.jpeg",
+    "index.html": "/Amy-McCabe-React/index.html",
+    "main.1f7ce07c.css.map": "/Amy-McCabe-React/static/css/main.1f7ce07c.css.map",
+    "main.5cd39ea6.js.map": "/Amy-McCabe-React/static/js/main.5cd39ea6.js.map",
+    "787.e2d54440.chunk.js.map": "/Amy-McCabe-React/static/js/787.e2d54440.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fab7675f.css",
-    "static/js/main.cf6ecf12.js"
+    "static/css/main.1f7ce07c.css",
+    "static/js/main.5cd39ea6.js"
   ]
 }
