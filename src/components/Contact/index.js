@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
-function Contact() {
+function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const { name, email, message } = formState;
   const [errorMessage, setErrorMessage] = useState('');
@@ -9,6 +9,7 @@ function Contact() {
   function handleChange(e) {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
+      console.log(isValid);
       if (!isValid) {
         setErrorMessage('Your email is invalid.');
       } else {
@@ -21,6 +22,7 @@ function Contact() {
         setErrorMessage('');
       }
     }
+
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value })
     }
@@ -29,28 +31,42 @@ function Contact() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
+    alert('Thank you for contacting me!');
+    setFormState({ name: '', email: '', message: '' });
+    document.getElementById('contact-form').reset();
   }
 
   return (
     <section>
-      <h1>Contact Me</h1>
-      <form id='contact-form' onSubmit={handleSubmit}>
+      <h1 data-testid='contact' >Contact me</h1>
+      <form id="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label><br/>
-          <input type="text" defaultValue={name} onChange={handleChange} name="name" />
+          <label htmlFor="name">Name:</label>
+          <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label><br/>
-          <input type="email" defaultValue={email} name="email" onChange={handleChange} />
+          <label htmlFor='email'>Email address:</label>
+          <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
         </div>
         <div>
-          <label htmlFor="message">Message:</label><br/>
-          <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
+          <label htmlFor='message'>Message:</label>
+          <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
         </div>
-        <button type="submit">Submit</button>
+
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+
+        <button type="submit" data-testid='submit'>Submit</button>
       </form>
+      <br/>
+      <h2>Or email me at:</h2>
+      <a id='email-link' href="mailto:amymccabe2001@gmail.com"><span>amymccabe2001@gmail.com</span></a>
+
     </section>
-  );
+  )
 }
 
-export default Contact;
+export default ContactForm;

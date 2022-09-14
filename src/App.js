@@ -7,7 +7,8 @@ import Footer from './components/Footer';
 function App() {
   const [contentCategories] = useState(['About', 'Portfolio', 'Contact', 'Resume']);
   const [currentContent, setCurrentContent] = useState('About');
-  console.log(currentContent);
+  console.log(`${currentContent}`);
+  //document.getElementById(`'${currentContent}'`).className = 'navActive';
   return (
     <div>
       <Header
