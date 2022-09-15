@@ -4,7 +4,7 @@ import Nav from '../Nav';
 function Header(props) {
   return(
     <header className='header'>
-      <h1 className='h1'>Amy McCabe</h1>
+      <h1 className='h1'><span>Amy </span><span>McCabe</span></h1>
       <Nav
         contentCategories={props.contentCategories}
         setCurrentContent={props.setCurrentContent}
