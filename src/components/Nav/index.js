@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Nav.css';
  
 function Nav(props) {
   console.log(props);
@@ -6,17 +7,17 @@ function Nav(props) {
   return(
     <nav className='nav'>
         <ul>
-          <li id='About' className={`nav-list-item ${props.currentContent === 'About' && 'navActive'}`}>
-          <button className={`${props.currentContent === 'About' && 'navActive'}`} onClick={() => props.setCurrentContent('About')}>About Me</button>
+          <li id='About' className='nav-list-item'>
+          <button className={`${props.currentContent === 'About' ? 'navActive' : ''}`} onClick={() => props.setCurrentContent('About')}>About Me</button>
           </li>
           <li id='Portfolio' className='nav-list-item'>
-            <button onClick={() => props.setCurrentContent('Portfolio')}>Portfolio</button>
+            <button className={`${props.currentContent === 'Portfolio' ? 'navActive' : ''}`} onClick={() => props.setCurrentContent('Portfolio')}>Portfolio</button>
           </li>
           <li id='Contact' className='nav-list-item'> 
-          <button onClick={() => props.setCurrentContent('Contact')}>Contact Me</button>
+          <button className={`${props.currentContent === 'Contact' ? 'navActive' : ''}`} onClick={() => props.setCurrentContent('Contact')}>Contact Me</button>
           </li>
           <li id='Resume' className='nav-list-item'>
-          <button onClick={() => props.setCurrentContent('Resume')}>Resume</button>
+          <button className={`${props.currentContent === 'Resume' ? 'navActive' : ''}`} onClick={() => props.setCurrentContent('Resume')}>Resume</button>
           </li>
         </ul>
       </nav>
