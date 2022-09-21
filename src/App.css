@@ -144,6 +144,7 @@ footer ul li a {
   background-color: var(--primary-color);
 }
 #email-link {
+  text-decoration: none;
   margin-left: 20px;
   margin-bottom: 20px;
   color: var(--tertiary-color);

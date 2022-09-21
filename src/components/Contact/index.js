@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+/*import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -66,6 +66,14 @@ function ContactForm() {
       <a id='email-link' href="mailto:amymccabe2001@gmail.com"><span>amymccabe2001@gmail.com</span></a>
 
     </section>
+  )
+} */
+function ContactForm() {
+  return (
+    <div>
+    <h1>Email me at:</h1>
+    <a id='email-link' href="mailto:amymccabe2001@gmail.com"><span>amymccabe2001@gmail.com</span></a>
+    </div>
   )
 }
 
