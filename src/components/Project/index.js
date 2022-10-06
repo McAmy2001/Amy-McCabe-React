@@ -4,6 +4,13 @@ import React from 'react';
 function Project() {
   const projects = [
     {
+      title: 'Where Were You When',
+      github: 'https://github.com/McAmy2001/Where-Were-You-When',
+      deployed: 'https://where-were-you-when.herokuapp.com/',
+      alt: 'Screenshot from Where Were You When app',
+      key: 'where'
+    },
+    {
       title: 'Take A Hike',
       github: 'https://github.com/McAmy2001/Take-A-Hike-2',
       deployed: 'https://mcamy2001-take-a-hike.herokuapp.com/',
