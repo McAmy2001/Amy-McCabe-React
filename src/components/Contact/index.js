@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-/*import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
+import emailjs from '@emailjs/browser';
+
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -25,13 +27,29 @@ function ContactForm() {
 
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value })
+      console.log(formState);
     }
   }
 
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
-    alert('Thank you for contacting me!');
+
+    const templateParams = {
+      user_name: name,
+      user_email: email,
+      message: message
+    };
+
+    emailjs.send('contact_service', 'contact_form', templateParams, '1xYivOBsAaSEObHf4')
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      }, (err) => {
+        console.log('FAILED...', err);
+      });
+
+
+    alert('Thank you for contacting me! I\'ll be in touch soon.');
     setFormState({ name: '', email: '', message: '' });
     document.getElementById('contact-form').reset();
   }
@@ -41,15 +59,15 @@ function ContactForm() {
       <h1 data-testid='contact' >Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label><br/>
+          <label htmlFor="name">Name:</label><br />
           <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
         </div>
         <div>
-          <label htmlFor='email'>Email address:</label><br/>
+          <label htmlFor='email'>Email address:</label><br />
           <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
         </div>
         <div>
-          <label htmlFor='message'>Message:</label><br/>
+          <label htmlFor='message'>Message:</label><br />
           <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
         </div>
 
@@ -61,20 +79,20 @@ function ContactForm() {
 
         <button type="submit" data-testid='submit'>Submit</button>
       </form>
-      <br/>
+      <br />
       <h2>Or email me at:</h2>
       <a id='email-link' href="mailto:amymccabe2001@gmail.com"><span>amymccabe2001@gmail.com</span></a>
 
     </section>
   )
-} */
-function ContactForm() {
+}
+/*function ContactForm() {
   return (
     <div>
     <h1>Email me at:</h1>
     <a id='email-link' href="mailto:amymccabe2001@gmail.com"><span>amymccabe2001@gmail.com</span></a>
     </div>
   )
-}
+} */
 
 export default ContactForm;
