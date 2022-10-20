@@ -5,7 +5,7 @@ function About() {
   return (
     <div id='about' className='about-container'>
       <img src={amyImage} id='amyImage' alt='Amy McCabe' />
-      <p className='about' >I have been, and always will be, a dedicated learner in life. I'm currently in the final weeks of a six month Full Stack Developer bootcamp through the University of Minnesota and Trilogy Educational Services. The bootcamp is based in Javascript and the MERN stack, while also hitting on SQL, OOP, TDD, and many other topics and technologies. This has been a major change from my past working lives of massage therapy and patient assistance. I have loved the challenge of it and getting into the flow state while programming.</p>
+      <p className='about' >Full Stack Web Developer with a background in patient assistance, massage therapy, and anthropology. Certified from the University of Minnesota and Trilogy Education Services coding bootcamp. Making a career change to bring fresh challenges to a puzzle-loving brain. Bringing well developed person-focused communication, time management, and organizational skills from former work and educational experiences. Adding to these new technical skills, strong logic, and a true love for constant learning. Seeking to create, build, maintain, and improve web applications that help people solve problems and do good work in the world.</p>
     </div>
   )
 }
