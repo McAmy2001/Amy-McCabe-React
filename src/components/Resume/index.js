@@ -15,7 +15,7 @@ function Resume() {
     <li className='skill-list-item'>TDD</li>
     <li className='skill-list-item'>OOP</li>
     <li className='skill-list-item'>Git</li>
-    <li className='skill-list-itme'>NPM</li>
+    <li className='skill-list-item'>NPM</li>
   </div>
 )}
 

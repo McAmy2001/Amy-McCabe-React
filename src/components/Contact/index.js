@@ -80,19 +80,8 @@ function ContactForm() {
         <button type="submit" data-testid='submit'>Submit</button>
       </form>
       <br />
-      <h2>Or email me at:</h2>
-      <a id='email-link' href="mailto:amymccabe2001@gmail.com"><span>amymccabe2001@gmail.com</span></a>
-
     </section>
   )
-}
-/*function ContactForm() {
-  return (
-    <div>
-    <h1>Email me at:</h1>
-    <a id='email-link' href="mailto:amymccabe2001@gmail.com"><span>amymccabe2001@gmail.com</span></a>
-    </div>
-  )
-} */
+};
 
 export default ContactForm;
