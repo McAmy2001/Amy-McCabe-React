@@ -12,12 +12,12 @@ function Project() {
       key: 'where'
     },
     {
-      title: 'Social Network API',
-      github: 'https://github.com/McAmy2001/social-network-API',
-      demo: 'https://drive.google.com/file/d/1FnuIkFQh_85KhVpQ8BcnsmWC13FA6h_y/view?usp=sharing',
-      alt: 'Screenshot from app',
-      description: 'A social network API backend',
-      key: 'social'
+      title: 'Take A Hike',
+      github: 'https://github.com/McAmy2001/Take-A-Hike-2',
+      demo: 'https://drive.google.com/file/d/1LRUDjDxmAqvSzSuLUa-ZjrTZWKCeawjh/view?usp=sharing',
+      alt: 'Take A Hike Logo',
+      description: 'An app to post and share your favorite hiking trails',
+      key: 'hike'
     },
     {
       title: 'Note Taker',
@@ -42,14 +42,16 @@ function Project() {
       alt: 'Screenshot from app',
       description: 'A command line app that displays requested employee information from a database in tables',
       key: 'tracker'
-    }
-    /*{
-      title: 'Take A Hike',
-      github: 'https://github.com/McAmy2001/Take-A-Hike-2',
-      demo: 'https://mcamy2001-take-a-hike.herokuapp.com/',
-      alt: 'Take A Hike Logo',
-      key: 'hike'
     },
+    {
+      title: 'Social Network API',
+      github: 'https://github.com/McAmy2001/social-network-API',
+      demo: 'https://drive.google.com/file/d/1FnuIkFQh_85KhVpQ8BcnsmWC13FA6h_y/view?usp=sharing',
+      alt: 'Screenshot from app',
+      description: 'A social network API backend',
+      key: 'social'
+    }
+    /*
     {
       title: 'Get Facts and Find Cats',
       github: 'https://github.com/McAmy2001/Get-Facts-and-Find-Cats',
