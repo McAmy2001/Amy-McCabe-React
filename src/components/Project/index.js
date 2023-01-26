@@ -8,7 +8,7 @@ function Project() {
       github: 'https://github.com/McAmy2001/Where-Were-You-When',
       demo: 'https://drive.google.com/file/d/1C6EWA8fwwzReNiAU_IeZ_Cdg-EA-BYcy/view?usp=sharing',
       alt: 'Screenshot from Where Were You When app',
-      description: 'An app for saving and sharing memories',
+      description: 'An app for saving and sharing memories. Built using React, MongoDB, Express, NodeJS, CSS, Apollo Server, bcrypt, GraphQL',
       key: 'where'
     },
     {
@@ -16,7 +16,7 @@ function Project() {
       github: 'https://github.com/McAmy2001/Take-A-Hike-2',
       demo: 'https://drive.google.com/file/d/1LRUDjDxmAqvSzSuLUa-ZjrTZWKCeawjh/view?usp=sharing',
       alt: 'Take A Hike Logo',
-      description: 'An app to post and share your favorite hiking trails',
+      description: 'An app to post and share your favorite hiking trails. Built using Javascript, HTML, CSS/Bulma, Cloudinary, Express, MySQL2, Sequelize',
       key: 'hike'
     },
     {
@@ -24,7 +24,7 @@ function Project() {
       github: 'https://github.com/McAmy2001/Note-Taker',
       demo: 'https://drive.google.com/file/d/1GcbPPLbGfnvWzIbB0tE7NJOfwAQefcRG/view?usp=sharing',
       alt: 'Screenshot from app',
-      description: 'A simple note taking app',
+      description: 'A simple note taking app. Uses Javascript, HTML, Bootstrap, Express',
       key: 'note'
     },
     {
@@ -40,7 +40,7 @@ function Project() {
       github: 'https://github.com/McAmy2001/Employee-Tracker',
       demo: 'https://drive.google.com/file/d/1ov36Aefa2VhTnuU6X6BHd4s9-JGG2BYk/view?usp=sharing',
       alt: 'Screenshot from app',
-      description: 'A command line app that displays requested employee information from a database in tables',
+      description: 'A command line app that displays requested employee information from a database in tables. Built using Javascript, Express, Inquirer, HTML, CSS',
       key: 'tracker'
     },
     {
@@ -48,7 +48,7 @@ function Project() {
       github: 'https://github.com/McAmy2001/social-network-API',
       demo: 'https://drive.google.com/file/d/1FnuIkFQh_85KhVpQ8BcnsmWC13FA6h_y/view?usp=sharing',
       alt: 'Screenshot from app',
-      description: 'A social network API backend',
+      description: 'A social network API backend. Built with Javascript, Express, MongoDB, Mongoose',
       key: 'social'
     }
     /*

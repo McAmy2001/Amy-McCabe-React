@@ -6,6 +6,9 @@ function Footer() {
       <h3>Find Me:</h3>
       <ul>
         <li>
+          <a href="mailto:amymccabe2002@gmail.com">amymccabe2001@gmail.com</a>
+        </li>
+        <li>
           <a href="https://github.com/McAmy2001" target="_blank" rel="noopener noreferrer">GitHub</a>
         </li>
         <li>
