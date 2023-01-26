@@ -32,7 +32,7 @@ function Project() {
       github: 'https://github.com/McAmy2001/Team-Profile-Generator',
       demo: 'https://drive.google.com/file/d/15azTnuvrG5-n4NCZOghTncArcsGqRmZX/view?usp=sharing',
       alt: 'Screenshot from app',
-      description: 'A command line app that generates a team portfolio',
+      description: 'A command line app that generates a team portfolio. Built using Javascript, Express, Inquirer, HTML, CSS',
       key: 'team'
     },
     {
@@ -40,7 +40,7 @@ function Project() {
       github: 'https://github.com/McAmy2001/Employee-Tracker',
       demo: 'https://drive.google.com/file/d/1ov36Aefa2VhTnuU6X6BHd4s9-JGG2BYk/view?usp=sharing',
       alt: 'Screenshot from app',
-      description: 'A command line app that displays requested employee information from a database in tables. Built using Javascript, Express, Inquirer, HTML, CSS',
+      description: 'A command line app that displays requested employee information from a database in tables. Built with Javascript, Express, Inquirer, MySQL2, console.table',
       key: 'tracker'
     },
     {
