@@ -1,4 +1,4 @@
-# Amy-McCabe-React, Bootcamp Module 20: React, Challenge
+# Amy-McCabe-React, Personal Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## A Single Page Portfolio Application build with React that has sections for information about me, my projects, a contact form, and my resume. All code is my own.
 <hr/>
@@ -6,6 +6,7 @@
 ## Table of Contents:
 - [Published-Page](#published-page)
 - [Screenshots](#screenshots)
+- [Technologies](#technologies)
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
@@ -20,6 +21,16 @@ View the published GitHub page at: [mcamy2001.github.io/Amy-McCabe-React/](https
 ![Screenshot](./src/assets/ss2.jpeg)
 ![Screenshot](./src/assets/ss3.jpeg)
 ![Screenshot](./src/assets/ss4.jpeg)
+
+<hr>
+
+## Technologies
+
+- [React](https://reactjs.org/)
+- [JSX](https://reactjs.org/docs/introducing-jsx.html)
+- Javascript
+- CSS
+- [Emailjs](https://www.emailjs.com/)
 
 <hr>
 
