@@ -41,7 +41,7 @@ function ContactForm() {
       message: message
     };
 
-    emailjs.send('contact_service', 'contact_form', templateParams, '1xYivOBsAaSEObHf4')
+    emailjs.send('service_qizwc9l', 'contact_form', templateParams, '1xYivOBsAaSEObHf4')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
       }, (err) => {
